@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Foco Arcano</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app">
+    <!-- HOME -->
+    <section id="page-home" class="page">
+      <div class="container home-grid">
+        <div>
+          <h1 class="title">Foco arcano</h1>
+          <div class="field">
+            <label>Elige la cantidad de cartas de tu tirada</label>
+            <select id="select-numcards">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Elige el enfoque de tus preguntas</label>
+            <select id="select-ambito">
+              <option>General</option>
+              <option>Amoroso</option>
+              <option>Laboral</option>
+              <option>Sentimental</option>
+              <option>Consejo de actuar</option>
+            </select>
+          </div>
+
+          <div class="actions">
+            <button id="btn-start" class="btn-yellow">Iniciar tirada</button>
+          </div>
+        </div>
+
+        <div class="hero">
+          <img src="images/hero.png" alt="Arte" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: Selección de cartas -->
+    <section id="page-select" class="page hidden">
+      <div class="container">
+        <div id="cards-grid" class="cards-grid"></div>
+
+        <div class="actions bottom-actions">
+          <button id="btn-reset" class="btn-purple">Volver al inicio</button>
+          <button id="btn-interpret" class="btn-interpret">INTERPRETACIÓN</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: Significados -->
+    <section id="page-meanings" class="page hidden">
+      <div class="container">
+        <div id="meanings-grid" class="meanings-grid"></div>
+
+        <div class="interpret-box" id="interpret-box">Posible interpretación del conjunto</div>
+
+        <div class="actions bottom-actions">
+          <button id="btn-back-home" class="btn-purple">Volver al inicio</button>
+          <button id="btn-add-comments" class="btn-purple">Añadir comentarios de la tirada</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: Interpretación personal -->
+    <section id="page-add" class="page hidden">
+      <div class="container">
+        <h2 class="title center">Interpretación personal</h2>
+
+        <div class="text-area-wrapper">
+          <textarea id="textarea-interpret" placeholder="Escribir interpretación"></textarea>
+        </div>
+
+        <div class="actions bottom-actions">
+          <button id="btn-cancel-add" class="btn-purple">Volver al inicio</button>
+          <button id="btn-save-interpret" class="btn-purple">Guardar y volver al inicio</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

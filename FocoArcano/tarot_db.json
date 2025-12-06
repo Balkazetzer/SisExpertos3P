@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "0-el-loco",
+    "name": "El Loco",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-loco.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Nuevos comienzos y libertad para explorar.",
+        "reversed": "Indecisión y miedo a avanzar."
+      },
+      "Amoroso": {
+        "upright": "Ilusión romántica y encuentros inesperados.",
+        "reversed": "Relaciones inmaduras o caóticas."
+      },
+      "Laboral": {
+        "upright": "Oportunidad arriesgada que inspira crecimiento.",
+        "reversed": "Falta de dirección profesional."
+      },
+      "Sentimental": {
+        "upright": "Espontaneidad emocional.",
+        "reversed": "Confusión y evitación del compromiso."
+      },
+      "Consejo de actuar": {
+        "upright": "Atrévete y da el salto.",
+        "reversed": "Piensa antes de lanzarte."
+      }
+    }
+  },
+  {
+    "id": "1-el-mago",
+    "name": "El Mago",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-mago.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Poder personal y habilidad para lograr metas.",
+        "reversed": "Manipulación o mal uso de recursos."
+      },
+      "Amoroso": {
+        "upright": "Atracción mutua y conquista consciente.",
+        "reversed": "Engaños o falta de transparencia."
+      },
+      "Laboral": {
+        "upright": "Concretas ideas con éxito.",
+        "reversed": "Promesas que no se cumplen."
+      },
+      "Sentimental": {
+        "upright": "Confianza emocional.",
+        "reversed": "Dudas para expresar sentimientos."
+      },
+      "Consejo de actuar": {
+        "upright": "Usa tus talentos con intención.",
+        "reversed": "Evita manipular para conseguir lo que quieres."
+      }
+    }
+  },
+  {
+    "id": "2-la-sacerdotisa",
+    "name": "La Sacerdotisa",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-sacerdotisa.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Sabiduría interna y misterio.",
+        "reversed": "Bloqueo intuitivo o secretos dañinos."
+      },
+      "Amoroso": {
+        "upright": "Conexión espiritual en la relación.",
+        "reversed": "Emociones reprimidas."
+      },
+      "Laboral": {
+        "upright": "Percepción fina y análisis profundo.",
+        "reversed": "Falta de información clave."
+      },
+      "Sentimental": {
+        "upright": "Explora tus emociones ocultas.",
+        "reversed": "Autoengaño."
+      },
+      "Consejo de actuar": {
+        "upright": "Escucha tu intuición.",
+        "reversed": "No ignores las señales internas."
+      }
+    }
+  },
+  {
+    "id": "3-la-emperatriz",
+    "name": "La Emperatriz",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-emperatriz.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Creatividad, abundancia y fertilidad.",
+        "reversed": "Bloqueos creativos o dependencia."
+      },
+      "Amoroso": {
+        "upright": "Relación afectuosa y protectora.",
+        "reversed": "Celos o relaciones posesivas."
+      },
+      "Laboral": {
+        "upright": "Proyectos florecientes.",
+        "reversed": "Estancamiento o falta de motivación."
+      },
+      "Sentimental": {
+        "upright": "Bienestar emocional.",
+        "reversed": "Inseguridad emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Cuida de ti y de quienes amas.",
+        "reversed": "Recupera tu amor propio."
+      }
+    }
+  },
+  {
+    "id": "4-el-emperador",
+    "name": "El Emperador",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-emperador.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Orden, disciplina y liderazgo.",
+        "reversed": "Autoritarismo o rigidez."
+      },
+      "Amoroso": {
+        "upright": "Compromiso sólido y protector.",
+        "reversed": "Frialdad o dominio excesivo."
+      },
+      "Laboral": {
+        "upright": "Éxito por organización.",
+        "reversed": "Conflictos con jerarquías."
+      },
+      "Sentimental": {
+        "upright": "Control de las emociones.",
+        "reversed": "Reprimir emociones daña."
+      },
+      "Consejo de actuar": {
+        "upright": "Actúa con estructura y firmeza.",
+        "reversed": "Flexibiliza tus reglas."
+      }
+    }
+  },
+  {
+    "id": "5-el-papa",
+    "name": "El Papa",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-papa.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Tradición, guía y aprendizaje.",
+        "reversed": "Rebeldía ante normas injustas."
+      },
+      "Amoroso": {
+        "upright": "Relación formal o consolidación.",
+        "reversed": "Rutina que asfixia."
+      },
+      "Laboral": {
+        "upright": "Avance por conocimiento.",
+        "reversed": "Sistema rígido que limita."
+      },
+      "Sentimental": {
+        "upright": "Valores bien definidos.",
+        "reversed": "Confusión de valores."
+      },
+      "Consejo de actuar": {
+        "upright": "Busca consejo experto.",
+        "reversed": "Atrévete a cuestionar."
+      }
+    }
+  },
+  {
+    "id": "6-los-enamorados",
+    "name": "Los Enamorados",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/los-enamorados.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Elección importante basada en el corazón.",
+        "reversed": "Dudas y decisiones confusas."
+      },
+      "Amoroso": {
+        "upright": "Conexión profunda y armonía.",
+        "reversed": "Desconexión o triángulos amorosos."
+      },
+      "Laboral": {
+        "upright": "Buenas asociaciones.",
+        "reversed": "Mala comunicación con socios."
+      },
+      "Sentimental": {
+        "upright": "Equilibrio emocional.",
+        "reversed": "Conflicto interno."
+      },
+      "Consejo de actuar": {
+        "upright": "Decide con amor y coherencia.",
+        "reversed": "Aclara lo que realmente deseas."
+      }
+    }
+  },
+  {
+    "id": "7-el-carro",
+    "name": "El Carro",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-carro.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Determinación y triunfo con esfuerzo.",
+        "reversed": "Falta de dirección o impulsividad."
+      },
+      "Amoroso": {
+        "upright": "Relación que avanza con intención.",
+        "reversed": "Choques de voluntad."
+      },
+      "Laboral": {
+        "upright": "Metas alcanzadas.",
+        "reversed": "Estancamiento por mala estrategia."
+      },
+      "Sentimental": {
+        "upright": "Control emocional.",
+        "reversed": "Desbordes emocionales."
+      },
+      "Consejo de actuar": {
+        "upright": "Sigue adelante con confianza.",
+        "reversed": "Recalibra tu rumbo."
+      }
+    }
+  },
+  {
+    "id": "8-la-fuerza",
+    "name": "La Fuerza",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-fuerza.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Valor, paciencia y autocontrol.",
+        "reversed": "Inseguridad o miedo a enfrentar retos."
+      },
+      "Amoroso": {
+        "upright": "Amor compasivo y estable.",
+        "reversed": "Dependencia afectiva."
+      },
+      "Laboral": {
+        "upright": "Superación de obstáculos.",
+        "reversed": "Desconfianza en tus capacidades."
+      },
+      "Sentimental": {
+        "upright": "Confianza interna.",
+        "reversed": "Emociones frágiles."
+      },
+      "Consejo de actuar": {
+        "upright": "Actúa con calma y firmeza.",
+        "reversed": "Trabaja tu autoestima."
+      }
+    }
+  },
+  {
+    "id": "9-el-eremita",
+    "name": "El Ermitaño",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-ermitanyo.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Búsqueda interior y reflexión profunda.",
+        "reversed": "Aislamiento o evasión."
+      },
+      "Amoroso": {
+        "upright": "Tiempo de distancia para clarificar.",
+        "reversed": "Soledad forzada o incomprensión."
+      },
+      "Laboral": {
+        "upright": "Trabajo en solitario que rinde.",
+        "reversed": "Desconexión del equipo."
+      },
+      "Sentimental": {
+        "upright": "Autoconocimiento.",
+        "reversed": "Negarte a sanar."
+      },
+      "Consejo de actuar": {
+        "upright": "Detente a pensar antes de actuar.",
+        "reversed": "Abre la puerta al mundo."
+      }
+    }
+  },
+  {
+    "id": "10-la-rueda",
+    "name": "La Rueda de la Fortuna",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-rueda-de-la-fortuna.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Cambios positivos y destino en movimiento.",
+        "reversed": "Mala racha temporal."
+      },
+      "Amoroso": {
+        "upright": "Nuevas etapas con suerte.",
+        "reversed": "Resistirse al cambio."
+      },
+      "Laboral": {
+        "upright": "Oportunidades inesperadas.",
+        "reversed": "Oportunidades no aprovechadas."
+      },
+      "Sentimental": {
+        "upright": "Fluir con la vida.",
+        "reversed": "Frustración por lo incierto."
+      },
+      "Consejo de actuar": {
+        "upright": "Aprovecha el momento.",
+        "reversed": "Sé paciente; todo gira."
+      }
+    }
+  },
+  {
+    "id": "11-la-justicia",
+    "name": "La Justicia",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-justicia.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Equilibrio y rendición de cuentas.",
+        "reversed": "Injusticias o favoritismos."
+      },
+      "Amoroso": {
+        "upright": "Relación justa y honesta.",
+        "reversed": "Mentiras que rompen la confianza."
+      },
+      "Laboral": {
+        "upright": "Contratos claros.",
+        "reversed": "Problemas legales o laborales."
+      },
+      "Sentimental": {
+        "upright": "Responsabilidad emocional.",
+        "reversed": "Culpa o autoengaño."
+      },
+      "Consejo de actuar": {
+        "upright": "Actúa con ética.",
+        "reversed": "Reconoce tu parte en el conflicto."
+      }
+    }
+  },
+  {
+    "id": "12-el-colgado",
+    "name": "El Colgado",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-colgado.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Pausa necesaria para obtener claridad.",
+        "reversed": "Estancamiento innecesario."
+      },
+      "Amoroso": {
+        "upright": "Entrega desinteresada.",
+        "reversed": "Sacrificios que no aportan."
+      },
+      "Laboral": {
+        "upright": "Saber esperar la ocasión.",
+        "reversed": "Pérdida de tiempo en lo incorrecto."
+      },
+      "Sentimental": {
+        "upright": "Aceptar lo que no puedes controlar.",
+        "reversed": "Resistencia al cambio."
+      },
+      "Consejo de actuar": {
+        "upright": "Cambia la perspectiva.",
+        "reversed": "Libérate de lo que te detiene."
+      }
+    }
+  },
+  {
+    "id": "13-la-muerte",
+    "name": "La Muerte",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-muerte.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Transformación y cierre de ciclos.",
+        "reversed": "Apego al pasado."
+      },
+      "Amoroso": {
+        "upright": "Cambio profundo en la relación.",
+        "reversed": "Relaciones estancadas."
+      },
+      "Laboral": {
+        "upright": "Nuevo rumbo vocacional.",
+        "reversed": "Miedo a un cambio necesario."
+      },
+      "Sentimental": {
+        "upright": "Renacer emocional.",
+        "reversed": "Evasión de sanación."
+      },
+      "Consejo de actuar": {
+        "upright": "Deja ir lo que terminó.",
+        "reversed": "Acepta el final para avanzar."
+      }
+    }
+  },
+  {
+    "id": "14-la-temperanza",
+    "name": "La Templanza",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-templanza.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Equilibrio, paciencia y armonía.",
+        "reversed": "Desequilibrio o excesos."
+      },
+      "Amoroso": {
+        "upright": "Relación sana y madura.",
+        "reversed": "Desajustes y discusiones."
+      },
+      "Laboral": {
+        "upright": "Trabajo en equipo fluido.",
+        "reversed": "Falta de coordinación."
+      },
+      "Sentimental": {
+        "upright": "Paz interior.",
+        "reversed": "Altibajos intensos."
+      },
+      "Consejo de actuar": {
+        "upright": "Practica la moderación.",
+        "reversed": "Encuentra el punto medio."
+      }
+    }
+  },
+  {
+    "id": "15-el-diablo",
+    "name": "El Diablo",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-diablo.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Tentaciones y obsesión con lo material.",
+        "reversed": "Liberación de ataduras."
+      },
+      "Amoroso": {
+        "upright": "Pasión intensa pero tóxica.",
+        "reversed": "Romper ciclos dañinos."
+      },
+      "Laboral": {
+        "upright": "Ambición excesiva.",
+        "reversed": "Dejar hábitos nocivos."
+      },
+      "Sentimental": {
+        "upright": "Dependencias emocionales.",
+        "reversed": "Reconocer tus sombras."
+      },
+      "Consejo de actuar": {
+        "upright": "Recupera tu libertad.",
+        "reversed": "Transforma tus impulsos."
+      }
+    }
+  },
+  {
+    "id": "16-la-torre",
+    "name": "La Torre",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-torre.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Colapso de estructuras falsas.",
+        "reversed": "Retrasar lo inevitable."
+      },
+      "Amoroso": {
+        "upright": "Rupturas o revelaciones fuertes.",
+        "reversed": "Aferrarse a una relación rota."
+      },
+      "Laboral": {
+        "upright": "Cambio brusco en el trabajo.",
+        "reversed": "Negar un cambio necesario."
+      },
+      "Sentimental": {
+        "upright": "Sinceridad que libera.",
+        "reversed": "Miedo a despertar."
+      },
+      "Consejo de actuar": {
+        "upright": "Acepta la verdad, aunque duela.",
+        "reversed": "Preparar el terreno para reconstruir."
+      }
+    }
+  },
+  {
+    "id": "17-la-estrella",
+    "name": "La Estrella",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-estrella.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Esperanza, calma y fe renovada.",
+        "reversed": "Pérdida de ilusión."
+      },
+      "Amoroso": {
+        "upright": "Conexión sincera y luminosa.",
+        "reversed": "Distancia y desánimo."
+      },
+      "Laboral": {
+        "upright": "Creatividad y confianza en proyectos.",
+        "reversed": "Falta de inspiración."
+      },
+      "Sentimental": {
+        "upright": "Sanación profunda.",
+        "reversed": "Desconfianza emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Cree en el futuro.",
+        "reversed": "Recupera tu luz interior."
+      }
+    }
+  },
+  {
+    "id": "18-la-luna",
+    "name": "La Luna",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/la-luna.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Ilusiones y emociones intensas.",
+        "reversed": "Revelación de engaños."
+      },
+      "Amoroso": {
+        "upright": "Relación confusa pero profunda.",
+        "reversed": "Salir de dudas."
+      },
+      "Laboral": {
+        "upright": "Riesgos por falta de claridad.",
+        "reversed": "Mayor transparencia."
+      },
+      "Sentimental": {
+        "upright": "Intuición y sueños activos.",
+        "reversed": "Miedos que se disipan."
+      },
+      "Consejo de actuar": {
+        "upright": "No creas todo lo que imaginas.",
+        "reversed": "Busca la verdad objetiva."
+      }
+    }
+  },
+  {
+    "id": "19-el-sol",
+    "name": "El Sol",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-sol.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Alegría, vitalidad y éxito.",
+        "reversed": "Optimismo forzado o retrasos."
+      },
+      "Amoroso": {
+        "upright": "Relación feliz y transparente.",
+        "reversed": "Expectativas poco realistas."
+      },
+      "Laboral": {
+        "upright": "Metas cumplidas.",
+        "reversed": "Dudas en el resultado."
+      },
+      "Sentimental": {
+        "upright": "Brillo personal.",
+        "reversed": "Autoexigencia excesiva."
+      },
+      "Consejo de actuar": {
+        "upright": "Disfruta el presente.",
+        "reversed": "Celebra tus avances sin compararte."
+      }
+    }
+  },
+  {
+    "id": "20-el-juicio",
+    "name": "El Juicio",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-juicio.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Renacimiento y claridad espiritual.",
+        "reversed": "Miedo a asumir responsabilidades."
+      },
+      "Amoroso": {
+        "upright": "Compromisos renovados.",
+        "reversed": "Culpar al otro en vez de actuar."
+      },
+      "Laboral": {
+        "upright": "Reconocimiento justo.",
+        "reversed": "Evitar cambios importantes."
+      },
+      "Sentimental": {
+        "upright": "Despertar emocional.",
+        "reversed": "Negarte a evolucionar."
+      },
+      "Consejo de actuar": {
+        "upright": "Toma decisiones definitivas.",
+        "reversed": "Escucha el llamado interno."
+      }
+    }
+  },
+  {
+    "id": "21-el-mundo",
+    "name": "El Mundo",
+    "suit": "Arcana mayor",
+    "image": "/assets/cartas/el-mundo.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Cierre exitoso y realización.",
+        "reversed": "Ciclos sin cerrar."
+      },
+      "Amoroso": {
+        "upright": "Plenitud en la relación.",
+        "reversed": "Relación que no avanza."
+      },
+      "Laboral": {
+        "upright": "Metas completadas con logro personal.",
+        "reversed": "Meta incompleta."
+      },
+      "Sentimental": {
+        "upright": "Satisfacción emocional.",
+        "reversed": "Sensación de vacío."
+      },
+      "Consejo de actuar": {
+        "upright": "Celebra lo que has alcanzado.",
+        "reversed": "Termina lo pendiente antes de seguir."
+      }
+    }
+  },
+  {
+    "id": "as-de-bastos",
+    "name": "As de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_as_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Inicio lleno de energía y motivación.",
+        "reversed": "Falta de impulso o retrasos."
+      },
+      "Amoroso": {
+        "upright": "Atracción fuerte y conexión pasional.",
+        "reversed": "Deseo sin acción o falta de chispa."
+      },
+      "Laboral": {
+        "upright": "Oportunidad creativa que despega.",
+        "reversed": "Ideas sin concretar."
+      },
+      "Sentimental": {
+        "upright": "Entusiasmo emocional.",
+        "reversed": "Temor a expresar sentimientos."
+      },
+      "Consejo de actuar": {
+        "upright": "Da el primer paso con pasión.",
+        "reversed": "Recupera claridad antes de actuar."
+      }
+    }
+  },
+  {
+    "id": "2-de-bastos",
+    "name": "2 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_2_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Planificación para expandirte.",
+        "reversed": "Dudas que frenan el avance."
+      },
+      "Amoroso": {
+        "upright": "Proyecto de relación a futuro.",
+        "reversed": "Miedo al compromiso."
+      },
+      "Laboral": {
+        "upright": "Decisiones estratégicas.",
+        "reversed": "Oportunidades que se escapan."
+      },
+      "Sentimental": {
+        "upright": "Reflexión sobre lo que deseas.",
+        "reversed": "Indecisión que desgasta."
+      },
+      "Consejo de actuar": {
+        "upright": "Visualiza y elige con firmeza.",
+        "reversed": "Deja de postergar decisiones."
+      }
+    }
+  },
+  {
+    "id": "3-de-bastos",
+    "name": "3 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_3_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Expansión y resultados en camino.",
+        "reversed": "Bloqueos externos o mala dirección."
+      },
+      "Amoroso": {
+        "upright": "Relación que crece y se proyecta.",
+        "reversed": "Esperas demasiado del otro."
+      },
+      "Laboral": {
+        "upright": "Comienza a haber frutos.",
+        "reversed": "Metas inciertas o retrasos."
+      },
+      "Sentimental": {
+        "upright": "Confianza creciente en ti mismo.",
+        "reversed": "Falta de autoestima para avanzar."
+      },
+      "Consejo de actuar": {
+        "upright": "Sigue adelante con visión.",
+        "reversed": "Revisa y ajusta tu plan."
+      }
+    }
+  },
+  {
+    "id": "4-de-bastos",
+    "name": "4 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_4_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Celebración y éxito compartido.",
+        "reversed": "Tensiones en el entorno."
+      },
+      "Amoroso": {
+        "upright": "Compromiso y alegría en pareja.",
+        "reversed": "Problemas familiares o de convivencia."
+      },
+      "Laboral": {
+        "upright": "Reconocen tu esfuerzo.",
+        "reversed": "Ambiente laboral inestable."
+      },
+      "Sentimental": {
+        "upright": "Felicidad interior.",
+        "reversed": "No logras relajarte."
+      },
+      "Consejo de actuar": {
+        "upright": "Disfruta y comparte tus logros.",
+        "reversed": "Resuelve conflictos pendientes."
+      }
+    }
+  },
+  {
+    "id": "5-de-bastos",
+    "name": "5 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_5_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Competencia y desafíos activos.",
+        "reversed": "Evitar conflictos empeora todo."
+      },
+      "Amoroso": {
+        "upright": "Celos o discusiones por poder.",
+        "reversed": "Se puede lograr una tregua."
+      },
+      "Laboral": {
+        "upright": "Rivalidad sana que impulsa.",
+        "reversed": "Desorganización y caos."
+      },
+      "Sentimental": {
+        "upright": "Furia y emociones intensas.",
+        "reversed": "Aprende a dialogar mejor."
+      },
+      "Consejo de actuar": {
+        "upright": "Lucha por lo que deseas.",
+        "reversed": "Cede cuando sea necesario."
+      }
+    }
+  },
+  {
+    "id": "6-de-bastos",
+    "name": "6 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_6_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Victoria y reconocimiento público.",
+        "reversed": "Fracaso temporal o baja autoestima."
+      },
+      "Amoroso": {
+        "upright": "Éxito amoroso y orgullo mutuo.",
+        "reversed": "Ego y necesidad de validación."
+      },
+      "Laboral": {
+        "upright": "Triunfo profesional notable.",
+        "reversed": "Te cuesta destacar."
+      },
+      "Sentimental": {
+        "upright": "Confianza fortalecida.",
+        "reversed": "Te afecta demasiado la opinión ajena."
+      },
+      "Consejo de actuar": {
+        "upright": "Celebra tu progreso.",
+        "reversed": "Sé humilde y resiliente."
+      }
+    }
+  },
+  {
+    "id": "7-de-bastos",
+    "name": "7 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_7_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Defiende tu posición con valentía.",
+        "reversed": "Ceder por cansancio o presión."
+      },
+      "Amoroso": {
+        "upright": "Protección de la relación.",
+        "reversed": "Sensación de ataque constante."
+      },
+      "Laboral": {
+        "upright": "Persistes pese a la competencia.",
+        "reversed": "Te rindes demasiado rápido."
+      },
+      "Sentimental": {
+        "upright": "Firmeza en tus emociones.",
+        "reversed": "Inseguridad y miedo."
+      },
+      "Consejo de actuar": {
+        "upright": "Mantente firme.",
+        "reversed": "Pide apoyo si lo necesitas."
+      }
+    }
+  },
+  {
+    "id": "8-de-bastos",
+    "name": "8 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_8_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Movimiento rápido y noticias.",
+        "reversed": "Estancamiento o malas comunicaciones."
+      },
+      "Amoroso": {
+        "upright": "Pasión y avances veloces.",
+        "reversed": "Bloqueos en la comunicación."
+      },
+      "Laboral": {
+        "upright": "Proyectos avanzan sin trabas.",
+        "reversed": "Retrasos frustrantes."
+      },
+      "Sentimental": {
+        "upright": "Entusiasmo renovado.",
+        "reversed": "Necesidad de aclarar malentendidos."
+      },
+      "Consejo de actuar": {
+        "upright": "Aprovecha el impulso.",
+        "reversed": "Organiza tus prioridades."
+      }
+    }
+  },
+  {
+    "id": "9-de-bastos",
+    "name": "9 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_9_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Resiliencia ante lo difícil.",
+        "reversed": "Fatiga y desconfianza excesiva."
+      },
+      "Amoroso": {
+        "upright": "Proteges el vínculo con esfuerzo.",
+        "reversed": "Miedos que crean distancia."
+      },
+      "Laboral": {
+        "upright": "Disciplina y resistencia laboral.",
+        "reversed": "Burnout o desánimo."
+      },
+      "Sentimental": {
+        "upright": "Fuerza interna para sanar.",
+        "reversed": "No te permites descansar."
+      },
+      "Consejo de actuar": {
+        "upright": "Sigue luchando, falta poco.",
+        "reversed": "Pide ayuda antes de romperte."
+      }
+    }
+  },
+  {
+    "id": "10-de-bastos",
+    "name": "10 de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_10_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Sobrecarga y responsabilidades pesadas.",
+        "reversed": "Necesitas soltar cargas ajenas."
+      },
+      "Amoroso": {
+        "upright": "Relación que pesa demasiado.",
+        "reversed": "Busca apoyo y equilibrio afectivo."
+      },
+      "Laboral": {
+        "upright": "Trabajo duro que agota.",
+        "reversed": "Delegar es urgente."
+      },
+      "Sentimental": {
+        "upright": "Estrés emocional.",
+        "reversed": "Libérate de expectativas ajenas."
+      },
+      "Consejo de actuar": {
+        "upright": "Termina lo que iniciaste.",
+        "reversed": "No cargues con todo tú solo."
+      }
+    }
+  },
+  {
+    "id": "sota-de-bastos",
+    "name": "Sota de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_sota_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Noticias o mensajes motivadores.",
+        "reversed": "Falta de enfoque o inmadurez."
+      },
+      "Amoroso": {
+        "upright": "Romance juvenil y espontáneo.",
+        "reversed": "Inestabilidad emocional."
+      },
+      "Laboral": {
+        "upright": "Nuevas ideas con energía.",
+        "reversed": "Poca constancia para terminar proyectos."
+      },
+      "Sentimental": {
+        "upright": "Curiosidad afectiva.",
+        "reversed": "Reactividad emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Acepta nuevas experiencias.",
+        "reversed": "Evita la impulsividad."
+      }
+    }
+  },
+  {
+    "id": "caballero-de-bastos",
+    "name": "Caballero de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_caballero_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Impulso valiente y aventura.",
+        "reversed": "Impulsividad peligrosa."
+      },
+      "Amoroso": {
+        "upright": "Pasión intensa y conquistadora.",
+        "reversed": "Inestabilidad y celos."
+      },
+      "Laboral": {
+        "upright": "Acción rápida que rinde frutos.",
+        "reversed": "Cambios bruscos e imprudentes."
+      },
+      "Sentimental": {
+        "upright": "Confianza en uno mismo.",
+        "reversed": "Arrogancia emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Dale movimiento a tu vida.",
+        "reversed": "Piensa antes de actuar."
+      }
+    }
+  },
+  {
+    "id": "reina-de-bastos",
+    "name": "Reina de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_reina_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Carisma, liderazgo y vitalidad.",
+        "reversed": "Control excesivo o inseguridad oculta."
+      },
+      "Amoroso": {
+        "upright": "Relación apasionada y leal.",
+        "reversed": "Celos y trato dominante."
+      },
+      "Laboral": {
+        "upright": "Organización y creatividad en acción.",
+        "reversed": "Dudas en tu liderazgo."
+      },
+      "Sentimental": {
+        "upright": "Confianza creciente.",
+        "reversed": "Temor a mostrar vulnerabilidad."
+      },
+      "Consejo de actuar": {
+        "upright": "Brilla sin miedo.",
+        "reversed": "Evita controlar a otros."
+      }
+    }
+  },
+  {
+    "id": "rey-de-bastos",
+    "name": "Rey de Bastos",
+    "suit": "Bastos",
+    "image": "/assets/cartas/bastos_rey_de_bastos.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Liderazgo fuerte y visión clara.",
+        "reversed": "Impaciencia y autoritarismo."
+      },
+      "Amoroso": {
+        "upright": "Pasión madura y protectora.",
+        "reversed": "Control posesivo y temperamento fuerte."
+      },
+      "Laboral": {
+        "upright": "Éxito empresarial.",
+        "reversed": "Mal manejo del poder."
+      },
+      "Sentimental": {
+        "upright": "Seguridad emocional.",
+        "reversed": "Incendios emocionales por orgullo."
+      },
+      "Consejo de actuar": {
+        "upright": "Lidera con inspiración.",
+        "reversed": "Acepta críticas y escucha más."
+      }
+    }
+  },
+  {
+    "id": "as-de-copas",
+    "name": "As de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_as_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Nuevo comienzo emocional.",
+        "reversed": "Bloqueos afectivos."
+      },
+      "Amoroso": {
+        "upright": "Inicio de una relación o resurgimiento del amor.",
+        "reversed": "Dudas sobre los sentimientos."
+      },
+      "Laboral": {
+        "upright": "Entusiasmo renovado por un proyecto.",
+        "reversed": "Desmotivación y falta de inspiración."
+      },
+      "Sentimental": {
+        "upright": "Apertura emocional. Paz interna.",
+        "reversed": "Tristeza oculta."
+      },
+      "Consejo de actuar": {
+        "upright": "Permítete sentir. Recibe el amor que llega.",
+        "reversed": "Sana heridas antes de abrir tu corazón."
+      }
+    }
+  },
+  {
+    "id": "dos-de-copas",
+    "name": "Dos de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_dos_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Unión equilibrada. Asociación armoniosa.",
+        "reversed": "Desacuerdos, separación emocional."
+      },
+      "Amoroso": {
+        "upright": "Pareja ideal, conexión profunda y mutua.",
+        "reversed": "Falta de reciprocidad o comunicación."
+      },
+      "Laboral": {
+        "upright": "Asociación o colaboración beneficiosa.",
+        "reversed": "Conflictos con socios o compañeros."
+      },
+      "Sentimental": {
+        "upright": "Empatía, estabilidad emocional.",
+        "reversed": "Rencores, dependencia afectiva."
+      },
+      "Consejo de actuar": {
+        "upright": "Fomenta el diálogo y la cooperación.",
+        "reversed": "Trabaja en sanar vínculos antes de insistir."
+      }
+    }
+  },
+  {
+    "id": "tres-de-copas",
+    "name": "Tres de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_tres_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Celebraciones familiares o sociales.",
+        "reversed": "Excesos o amistades superficiales."
+      },
+      "Amoroso": {
+        "upright": "Relación apoyada por el entorno.",
+        "reversed": "Triángulos amorosos o chismes."
+      },
+      "Laboral": {
+        "upright": "Trabajo en equipo exitoso.",
+        "reversed": "Falta de compromiso en el grupo."
+      },
+      "Sentimental": {
+        "upright": "Alegría, sentirte apoyado.",
+        "reversed": "Soledad en medio de la gente."
+      },
+      "Consejo de actuar": {
+        "upright": "Celebra tus logros con los tuyos.",
+        "reversed": "Modera excesos y define límites."
+      }
+    }
+  },
+  {
+    "id": "cuatro-de-copas",
+    "name": "Cuatro de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_cuatro_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Apatía y estancamiento emocional.",
+        "reversed": "Nueva apertura hacia experiencias."
+      },
+      "Amoroso": {
+        "upright": "Desinterés o aburrimiento en la relación.",
+        "reversed": "Disposición a reenamorarse."
+      },
+      "Laboral": {
+        "upright": "Desmotivación laboral.",
+        "reversed": "Oportunidades nuevas si las aceptas."
+      },
+      "Sentimental": {
+        "upright": "Abandono emocional de uno mismo.",
+        "reversed": "Volver a conectar con los deseos."
+      },
+      "Consejo de actuar": {
+        "upright": "Mira lo que sí tienes.",
+        "reversed": "Atrévete a abrirte a lo nuevo."
+      }
+    }
+  },
+  {
+    "id": "cinco-de-copas",
+    "name": "Cinco de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_cinco_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Pérdida emocional. Duelo.",
+        "reversed": "Superación del dolor."
+      },
+      "Amoroso": {
+        "upright": "Rupturas o decepciones afectivas.",
+        "reversed": "Sanación y perdón posible."
+      },
+      "Laboral": {
+        "upright": "Fracasos o errores pesando demasiado.",
+        "reversed": "Aprendizajes valiosos tras el error."
+      },
+      "Sentimental": {
+        "upright": "Culpa, tristeza.",
+        "reversed": "Esperanza renaciendo."
+      },
+      "Consejo de actuar": {
+        "upright": "Llora tu dolor, pero no te estanques.",
+        "reversed": "Mira lo que aún se sostiene."
+      }
+    }
+  },
+  {
+    "id": "seis-de-copas",
+    "name": "Seis de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_seis_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Nostalgia positiva. Recuerdos felices.",
+        "reversed": "Apego al pasado que impide avanzar."
+      },
+      "Amoroso": {
+        "upright": "Reencuentros o amor con historia.",
+        "reversed": "Idealizar relaciones pasadas."
+      },
+      "Laboral": {
+        "upright": "Proyectos cooperativos con confianza.",
+        "reversed": "Inseguridad frente a cambios."
+      },
+      "Sentimental": {
+        "upright": "Inocencia emocional.",
+        "reversed": "Inmadurez afectiva."
+      },
+      "Consejo de actuar": {
+        "upright": "Recuerda, pero no regreses atrás.",
+        "reversed": "Suelta lo que ya no vuelve."
+      }
+    }
+  },
+  {
+    "id": "siete-de-copas",
+    "name": "Siete de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_siete_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Fantasías y múltiples opciones.",
+        "reversed": "Decisión concreta tras aclarar confusión."
+      },
+      "Amoroso": {
+        "upright": "Idealización excesiva.",
+        "reversed": "Ver la realidad del vínculo."
+      },
+      "Laboral": {
+        "upright": "Ideas sin concretar.",
+        "reversed": "Elegir un camino productivo."
+      },
+      "Sentimental": {
+        "upright": "Sueños dispersos.",
+        "reversed": "Claridad y enfoque."
+      },
+      "Consejo de actuar": {
+        "upright": "No te dejes engañar por ilusiones.",
+        "reversed": "Céntrate en lo que sí puedes lograr."
+      }
+    }
+  },
+  {
+    "id": "ocho-de-copas",
+    "name": "Ocho de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_ocho_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Dejar atrás lo que ya no llena.",
+        "reversed": "Miedo a abandonar lo conocido."
+      },
+      "Amoroso": {
+        "upright": "Separación necesaria.",
+        "reversed": "Dependencia emocional fuerte."
+      },
+      "Laboral": {
+        "upright": "Renuncia para buscar cumplimiento personal.",
+        "reversed": "Estancamiento por falta de valor."
+      },
+      "Sentimental": {
+        "upright": "Gran valentía emocional.",
+        "reversed": "Resignación y falta de fuerza."
+      },
+      "Consejo de actuar": {
+        "upright": "Da el paso. Te mereces más.",
+        "reversed": "Cuestiona: ¿por qué sigues ahí?"
+      }
+    }
+  },
+  {
+    "id": "nueve-de-copas",
+    "name": "Nueve de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_nueve_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Deseos cumplidos. Satisfacción personal.",
+        "reversed": "Placer superficial o vacío interno."
+      },
+      "Amoroso": {
+        "upright": "Bienestar en pareja.",
+        "reversed": "Autoindulgencia o egoísmo."
+      },
+      "Laboral": {
+        "upright": "Reconocimiento y comodidad laboral.",
+        "reversed": "Acomodamiento excesivo."
+      },
+      "Sentimental": {
+        "upright": "Amor propio fuerte.",
+        "reversed": "Orgullo que tapa carencias."
+      },
+      "Consejo de actuar": {
+        "upright": "Disfruta tu presente.",
+        "reversed": "Comparte, no lo guardes sólo para ti."
+      }
+    }
+  },
+  {
+    "id": "diez-de-copas",
+    "name": "Diez de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_diez_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Armonía familiar y felicidad plena.",
+        "reversed": "Conflictos domésticos ocultos."
+      },
+      "Amoroso": {
+        "upright": "Amor consolidado y estable.",
+        "reversed": "Apariencias felices pero frialdad interna."
+      },
+      "Laboral": {
+        "upright": "Trabajo alineado con tus valores.",
+        "reversed": "Choques entre vida personal y trabajo."
+      },
+      "Sentimental": {
+        "upright": "Gratitud profunda.",
+        "reversed": "Expectativas irreales."
+      },
+      "Consejo de actuar": {
+        "upright": "Valora tus afectos.",
+        "reversed": "No pretendas la perfección."
+      }
+    }
+  },
+  {
+    "id": "sota-de-copas",
+    "name": "Sota de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_sota_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Creatividad, mensajes afectivos.",
+        "reversed": "Inmadurez emocional."
+      },
+      "Amoroso": {
+        "upright": "Coqueteo, romance tímido.",
+        "reversed": "Celos infantiles o ilusiones vacías."
+      },
+      "Laboral": {
+        "upright": "Ideas artísticas o empáticas.",
+        "reversed": "Falta de responsabilidad."
+      },
+      "Sentimental": {
+        "upright": "Sensibilidad y apertura.",
+        "reversed": "Autoengaño emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Explora tu creatividad.",
+        "reversed": "Madura antes de actuar impulsivamente."
+      }
+    }
+  },
+  {
+    "id": "caballero-de-copas",
+    "name": "Caballero de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_caballero_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Romanticismo y propuestas.",
+        "reversed": "Ilusiones que se desvanecen."
+      },
+      "Amoroso": {
+        "upright": "Alguien enamorado se acerca.",
+        "reversed": "Promesas vacías."
+      },
+      "Laboral": {
+        "upright": "Proyectos creativos avanzan.",
+        "reversed": "Falta de dirección concreta."
+      },
+      "Sentimental": {
+        "upright": "Romanticismo sincero.",
+        "reversed": "Idealización peligrosa."
+      },
+      "Consejo de actuar": {
+        "upright": "Actúa con el corazón.",
+        "reversed": "Revisa tu realidad antes de entregarte."
+      }
+    }
+  },
+  {
+    "id": "reina-de-copas",
+    "name": "Reina de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_reina_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Intuición, amor incondicional.",
+        "reversed": "Mártir emocional o dependencia."
+      },
+      "Amoroso": {
+        "upright": "Cariño profundo y entrega sincera.",
+        "reversed": "Excesiva necesidad de aprobación."
+      },
+      "Laboral": {
+        "upright": "Vocación de ayuda y cuidado.",
+        "reversed": "Emociones interfiriendo en decisiones."
+      },
+      "Sentimental": {
+        "upright": "Gran empatía.",
+        "reversed": "Vulnerabilidad mal gestionada."
+      },
+      "Consejo de actuar": {
+        "upright": "Escucha tu intuición.",
+        "reversed": "Pon límites a tu sensibilidad."
+      }
+    }
+  },
+  {
+    "id": "rey-de-copas",
+    "name": "Rey de Copas",
+    "suit": "Copas",
+    "image": "/assets/cartas/copas_rey_de_copas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Control emocional, paternidad afectiva.",
+        "reversed": "Manipulación emocional o represión."
+      },
+      "Amoroso": {
+        "upright": "Amor equilibrado y protector.",
+        "reversed": "Celos o chantaje emocional."
+      },
+      "Laboral": {
+        "upright": "Liderazgo empático.",
+        "reversed": "Gestión caótica de las emociones en el trabajo."
+      },
+      "Sentimental": {
+        "upright": "Madura estabilidad emocional.",
+        "reversed": "Negación del sentir."
+      },
+      "Consejo de actuar": {
+        "upright": "Mantén la calma y la compasión.",
+        "reversed": "No controles emociones ajenas para beneficio propio."
+      }
+    }
+  },
+  {
+    "id": "as-de-espadas",
+    "name": "As de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_as_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Claridad mental, nuevas ideas, verdad revelada.",
+        "reversed": "Confusión, engaños o bloqueos mentales."
+      },
+      "Amoroso": {
+        "upright": "Conversación decisiva que aclara sentimientos.",
+        "reversed": "Palabras duras, malentendidos."
+      },
+      "Laboral": {
+        "upright": "Estrategia efectiva. Nuevos proyectos intelectuales.",
+        "reversed": "Exceso de análisis y poca acción."
+      },
+      "Sentimental": {
+        "upright": "Comprensión racional de emociones.",
+        "reversed": "Frialdad afectiva o rigidez mental."
+      },
+      "Consejo de actuar": {
+        "upright": "Habla con honestidad.",
+        "reversed": "Evita juicios apresurados."
+      }
+    }
+  },
+  {
+    "id": "dos-de-espadas",
+    "name": "Dos de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_dos_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Bloqueo mental. Decisiones difíciles.",
+        "reversed": "Verdad oculta sale a la luz."
+      },
+      "Amoroso": {
+        "upright": "Negación de un problema en la relación.",
+        "reversed": "Tensión liberada tras enfrentar la realidad."
+      },
+      "Laboral": {
+        "upright": "Indecisión respecto a una oportunidad.",
+        "reversed": "Elegir tras obtener claridad."
+      },
+      "Sentimental": {
+        "upright": "Autoprotección emocional.",
+        "reversed": "Vulnerabilidad necesaria."
+      },
+      "Consejo de actuar": {
+        "upright": "No evites el conflicto, resuélvelo.",
+        "reversed": "Acepta lo evidente."
+      }
+    }
+  },
+  {
+    "id": "tres-de-espadas",
+    "name": "Tres de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_tres_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Dolor emocional, traición, ruptura.",
+        "reversed": "Sanación del corazón."
+      },
+      "Amoroso": {
+        "upright": "Separación dolorosa o triángulo amoroso.",
+        "reversed": "Reconciliación tras enfrentar heridas."
+      },
+      "Laboral": {
+        "upright": "Críticas duras o despidos.",
+        "reversed": "Recuperación profesional."
+      },
+      "Sentimental": {
+        "upright": "Pérdida emocional intensa.",
+        "reversed": "Liberar dolor que ya no sirve."
+      },
+      "Consejo de actuar": {
+        "upright": "Permítete sentir la herida.",
+        "reversed": "Empieza a perdonar."
+      }
+    }
+  },
+  {
+    "id": "cuatro-de-espadas",
+    "name": "Cuatro de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_cuatro_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Descanso mental y recuperación.",
+        "reversed": "Estrés acumulado. Falta de reposo."
+      },
+      "Amoroso": {
+        "upright": "Pausa necesaria en la relación.",
+        "reversed": "Evitar intimidad y comunicación."
+      },
+      "Laboral": {
+        "upright": "Tiempo para planear con calma.",
+        "reversed": "Excesiva carga de trabajo."
+      },
+      "Sentimental": {
+        "upright": "Reflexión para sanar.",
+        "reversed": "Agotamiento emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Descansa antes de decidir.",
+        "reversed": "Escucha a tu cuerpo."
+      }
+    }
+  },
+  {
+    "id": "cinco-de-espadas",
+    "name": "Cinco de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_cinco_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Conflictos y victorias vacías.",
+        "reversed": "Reconciliación o rendirse al orgullo."
+      },
+      "Amoroso": {
+        "upright": "Discusión donde ambos pierden.",
+        "reversed": "Buscar paz en lugar de ganar."
+      },
+      "Laboral": {
+        "upright": "Competencia agresiva.",
+        "reversed": "Negociación después del conflicto."
+      },
+      "Sentimental": {
+        "upright": "Ego defensivo.",
+        "reversed": "Reconocer errores."
+      },
+      "Consejo de actuar": {
+        "upright": "Evalúa si vale la pena luchar.",
+        "reversed": "Pide disculpas si es necesario."
+      }
+    }
+  },
+  {
+    "id": "seis-de-espadas",
+    "name": "Seis de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_seis_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Transición a una etapa más tranquila.",
+        "reversed": "Dificultad para avanzar."
+      },
+      "Amoroso": {
+        "upright": "Superación de una crisis en pareja.",
+        "reversed": "Aferrarse al sufrimiento."
+      },
+      "Laboral": {
+        "upright": "Cambios positivos en trabajo o ambiente.",
+        "reversed": "Rutina que desgasta."
+      },
+      "Sentimental": {
+        "upright": "Aceptación de lo que no se puede cambiar.",
+        "reversed": "Resistencia mental."
+      },
+      "Consejo de actuar": {
+        "upright": "Déjate llevar hacia la calma.",
+        "reversed": "No vuelvas atrás por miedo."
+      }
+    }
+  },
+  {
+    "id": "siete-de-espadas",
+    "name": "Siete de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_siete_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Engaños, estrategias secretas.",
+        "reversed": "Verdades que salen a la luz."
+      },
+      "Amoroso": {
+        "upright": "Ocultar algo a la pareja.",
+        "reversed": "Confesiones necesarias."
+      },
+      "Laboral": {
+        "upright": "Trabajo solitario y astuto.",
+        "reversed": "Malas prácticas se descubren."
+      },
+      "Sentimental": {
+        "upright": "Autoboicot.",
+        "reversed": "Actuar con honestidad interna."
+      },
+      "Consejo de actuar": {
+        "upright": "Piensa estratégicamente.",
+        "reversed": "Sé transparente."
+      }
+    }
+  },
+  {
+    "id": "ocho-de-espadas",
+    "name": "Ocho de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_ocho_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Autolimitación por miedo.",
+        "reversed": "Liberación de bloqueos."
+      },
+      "Amoroso": {
+        "upright": "Sentirse atrapado en la relación.",
+        "reversed": "Tomar control sobre la propia vida."
+      },
+      "Laboral": {
+        "upright": "Sentirse sin salida profesional.",
+        "reversed": "Soluciones surgen al cambiar la perspectiva."
+      },
+      "Sentimental": {
+        "upright": "Ansiedad intensa.",
+        "reversed": "Fortalecimiento personal."
+      },
+      "Consejo de actuar": {
+        "upright": "No creas todos tus miedos.",
+        "reversed": "Da el paso que has evitado."
+      }
+    }
+  },
+  {
+    "id": "nueve-de-espadas",
+    "name": "Nueve de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_nueve_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Angustia, pesadillas, culpa.",
+        "reversed": "Liberarse del tormento mental."
+      },
+      "Amoroso": {
+        "upright": "Miedo a perder a alguien.",
+        "reversed": "Hablar para aliviar la ansiedad."
+      },
+      "Laboral": {
+        "upright": "Estrés y preocupación exagerada.",
+        "reversed": "Apoyo al compartir preocupaciones."
+      },
+      "Sentimental": {
+        "upright": "Fuerte crisis emocional.",
+        "reversed": "Amanecer después de la tormenta."
+      },
+      "Consejo de actuar": {
+        "upright": "Busca ayuda y no te aisles.",
+        "reversed": "Observa tus pensamientos sin juzgar."
+      }
+    }
+  },
+  {
+    "id": "diez-de-espadas",
+    "name": "Diez de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_diez_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Final doloroso pero definitivo.",
+        "reversed": "Renacer tras la caída."
+      },
+      "Amoroso": {
+        "upright": "Ruptura inevitable.",
+        "reversed": "Cerrar heridas y comenzar de nuevo."
+      },
+      "Laboral": {
+        "upright": "Fracaso profesional o cierre abrupto.",
+        "reversed": "Nueva oportunidad emerge."
+      },
+      "Sentimental": {
+        "upright": "Colapso emocional.",
+        "reversed": "Reconstrucción interna."
+      },
+      "Consejo de actuar": {
+        "upright": "Acepta el final.",
+        "reversed": "No temas empezar otra vez."
+      }
+    }
+  },
+  {
+    "id": "sota-de-espadas",
+    "name": "Sota de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_sota_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Vigilancia, aprendizaje, curiosidad.",
+        "reversed": "Chismes, impaciencia."
+      },
+      "Amoroso": {
+        "upright": "Interés creciente pero tímido.",
+        "reversed": "Celos y espionaje emocional."
+      },
+      "Laboral": {
+        "upright": "Aprendiz motivado intelectualmente.",
+        "reversed": "Torpeza por apresurarse."
+      },
+      "Sentimental": {
+        "upright": "Autoconocimiento en progreso.",
+        "reversed": "Crítica excesiva hacia uno mismo."
+      },
+      "Consejo de actuar": {
+        "upright": "Piensa dos veces antes de hablar.",
+        "reversed": "Controla el impulso."
+      }
+    }
+  },
+  {
+    "id": "caballero-de-espadas",
+    "name": "Caballero de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_caballero_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Determinación y acción rápida.",
+        "reversed": "Impulsividad agresiva."
+      },
+      "Amoroso": {
+        "upright": "Alguien toma la iniciativa rápidamente.",
+        "reversed": "Relación conflictiva y precipitada."
+      },
+      "Laboral": {
+        "upright": "Objetivos claros y ambición fuerte.",
+        "reversed": "Atropellar a otros para lograr metas."
+      },
+      "Sentimental": {
+        "upright": "Convicción emocional racionalizada.",
+        "reversed": "Rigidez mental."
+      },
+      "Consejo de actuar": {
+        "upright": "Actúa con seguridad.",
+        "reversed": "Baja la velocidad."
+      }
+    }
+  },
+  {
+    "id": "reina-de-espadas",
+    "name": "Reina de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_reina_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Independencia, inteligencia y verdad sin filtros.",
+        "reversed": "Crueldad verbal o resentimiento."
+      },
+      "Amoroso": {
+        "upright": "Amor pero con límites sanos.",
+        "reversed": "Exceso de control y frialdad."
+      },
+      "Laboral": {
+        "upright": "Liderazgo racional y justo.",
+        "reversed": "Autoritarismo mental."
+      },
+      "Sentimental": {
+        "upright": "Fortaleza emocional tras dolor pasado.",
+        "reversed": "Desconfianza excesiva."
+      },
+      "Consejo de actuar": {
+        "upright": "Sé honesta, incluso si duele.",
+        "reversed": "Evita juzgar sin empatía."
+      }
+    }
+  },
+  {
+    "id": "rey-de-espadas",
+    "name": "Rey de Espadas",
+    "suit": "Espadas",
+    "image": "/assets/cartas/espadas_rey_de_espadas.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Lógica, justicia y autoridad moral.",
+        "reversed": "Control mental y manipulación."
+      },
+      "Amoroso": {
+        "upright": "Amor racional y protector.",
+        "reversed": "Frialdad emocional extrema."
+      },
+      "Laboral": {
+        "upright": "Decisiones firmes y bien argumentadas.",
+        "reversed": "Abuso de poder en el trabajo."
+      },
+      "Sentimental": {
+        "upright": "Claridad mental emocional.",
+        "reversed": "Desconexión del sentir."
+      },
+      "Consejo de actuar": {
+        "upright": "Sé justo y firme.",
+        "reversed": "No seas inflexible."
+      }
+    }
+  },
+  {
+    "id": "as-de-oros",
+    "name": "As de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_as_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Inicio de prosperidad y oportunidad material.",
+        "reversed": "Oportunidad desaprovechada."
+      },
+      "Amoroso": {
+        "upright": "Relación estable y crecimiento conjunto.",
+        "reversed": "Interés material en la relación."
+      },
+      "Laboral": {
+        "upright": "Nuevo trabajo o proyecto rentable.",
+        "reversed": "Bloqueos económicos."
+      },
+      "Sentimental": {
+        "upright": "Seguridad emocional y autoestima.",
+        "reversed": "Inseguridad personal."
+      },
+      "Consejo de actuar": {
+        "upright": "Invierte en tu futuro.",
+        "reversed": "Revisa tus prioridades."
+      }
+    }
+  },
+  {
+    "id": "dos-de-oros",
+    "name": "Dos de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_dos_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Equilibrar responsabilidades y adaptarse.",
+        "reversed": "Sobrecarga y desorden financiero."
+      },
+      "Amoroso": {
+        "upright": "Cooperación y resolver juntos problemas.",
+        "reversed": "Inestabilidad afectiva."
+      },
+      "Laboral": {
+        "upright": "Multitarea exitosa.",
+        "reversed": "Prioridades mal gestionadas."
+      },
+      "Sentimental": {
+        "upright": "Busca armonía interna.",
+        "reversed": "Te sientes dividido."
+      },
+      "Consejo de actuar": {
+        "upright": "Organízate antes de avanzar.",
+        "reversed": "Delega responsabilidades."
+      }
+    }
+  },
+  {
+    "id": "tres-de-oros",
+    "name": "Tres de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_tres_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Trabajo en equipo y reconocimiento.",
+        "reversed": "Falta de colaboración."
+      },
+      "Amoroso": {
+        "upright": "Proyecto conjunto que fortalece el vínculo.",
+        "reversed": "Terceras personas interfieren."
+      },
+      "Laboral": {
+        "upright": "Éxito profesional por esfuerzo compartido.",
+        "reversed": "Conflictos con colegas."
+      },
+      "Sentimental": {
+        "upright": "Te sientes valorado.",
+        "reversed": "Sensación de ser poco apreciado."
+      },
+      "Consejo de actuar": {
+        "upright": "Colabora: otros pueden ayudarte.",
+        "reversed": "Evalúa tu participación."
+      }
+    }
+  },
+  {
+    "id": "cuatro-de-oros",
+    "name": "Cuatro de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_cuatro_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Control y ahorro.",
+        "reversed": "Apego excesivo y avaricia."
+      },
+      "Amoroso": {
+        "upright": "Búsqueda de estabilidad en la pareja.",
+        "reversed": "Posesividad que limita."
+      },
+      "Laboral": {
+        "upright": "Finanzas controladas.",
+        "reversed": "Miedo al cambio profesional."
+      },
+      "Sentimental": {
+        "upright": "Necesidad de seguridad emocional.",
+        "reversed": "Te cierras por temor a ser herido."
+      },
+      "Consejo de actuar": {
+        "upright": "Administra con sabiduría.",
+        "reversed": "Soltar también es riqueza."
+      }
+    }
+  },
+  {
+    "id": "cinco-de-oros",
+    "name": "Cinco de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_cinco_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Carencias y crisis temporal.",
+        "reversed": "Recuperación lenta posible."
+      },
+      "Amoroso": {
+        "upright": "Sensación de abandono afectivo.",
+        "reversed": "Reconstrucción afectiva."
+      },
+      "Laboral": {
+        "upright": "Desempleo o dificultades económicas.",
+        "reversed": "Apoyo disponible si lo pides."
+      },
+      "Sentimental": {
+        "upright": "Soledad y baja autoestima.",
+        "reversed": "Reconexión con tu valor."
+      },
+      "Consejo de actuar": {
+        "upright": "Busca apoyo, no te aísles.",
+        "reversed": "Confía en la recuperación."
+      }
+    }
+  },
+  {
+    "id": "seis-de-oros",
+    "name": "Seis de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_seis_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Generosidad y equilibrio en dar y recibir.",
+        "reversed": "Desequilibrio con intenciones ocultas."
+      },
+      "Amoroso": {
+        "upright": "Reciprocidad en pareja.",
+        "reversed": "Uno da más que otro."
+      },
+      "Laboral": {
+        "upright": "Apoyo económico o recompensa.",
+        "reversed": "Dependencia o pagos injustos."
+      },
+      "Sentimental": {
+        "upright": "Cariño correspondido.",
+        "reversed": "Sentir que no te valoran."
+      },
+      "Consejo de actuar": {
+        "upright": "Comparte tus recursos.",
+        "reversed": "Pon límites a quien solo toma."
+      }
+    }
+  },
+  {
+    "id": "siete-de-oros",
+    "name": "Siete de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_siete_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Paciencia y evaluación de frutos.",
+        "reversed": "Impaciencia y proyectos abandonados."
+      },
+      "Amoroso": {
+        "upright": "Relación que crece poco a poco.",
+        "reversed": "Dudas sobre continuidad."
+      },
+      "Laboral": {
+        "upright": "Progreso lento pero seguro.",
+        "reversed": "Trabajo no reconocido."
+      },
+      "Sentimental": {
+        "upright": "Construcción interna sólida.",
+        "reversed": "Falta de fe en ti mismo."
+      },
+      "Consejo de actuar": {
+        "upright": "Espera: aún no es momento de cosechar.",
+        "reversed": "Revisa si sigues el camino correcto."
+      }
+    }
+  },
+  {
+    "id": "ocho-de-oros",
+    "name": "Ocho de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_ocho_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Disciplina y perfeccionamiento.",
+        "reversed": "Rutina sin avance."
+      },
+      "Amoroso": {
+        "upright": "Trabajo activo en la relación.",
+        "reversed": "Descuido y monotonía."
+      },
+      "Laboral": {
+        "upright": "Mejoras profesionales por esfuerzo.",
+        "reversed": "Estancamiento por falta de dedicación."
+      },
+      "Sentimental": {
+        "upright": "Compromiso contigo mismo.",
+        "reversed": "Procrastinación emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Sigue trabajando: los resultados llegarán.",
+        "reversed": "Reconecta con tu motivación."
+      }
+    }
+  },
+  {
+    "id": "nueve-de-oros",
+    "name": "Nueve de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_nueve_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Éxito material e independencia.",
+        "reversed": "Dependencia o inseguridad oculta."
+      },
+      "Amoroso": {
+        "upright": "Placer y seguridad en la pareja.",
+        "reversed": "Soledad por autoexigencia."
+      },
+      "Laboral": {
+        "upright": "Beneficios por mérito propio.",
+        "reversed": "Falta de reconocimiento."
+      },
+      "Sentimental": {
+        "upright": "Orgullo personal sano.",
+        "reversed": "Inseguridad oculta."
+      },
+      "Consejo de actuar": {
+        "upright": "Valora tus logros.",
+        "reversed": "No te aísles."
+      }
+    }
+  },
+  {
+    "id": "diez-de-oros",
+    "name": "Diez de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_diez_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Abundancia y legado familiar.",
+        "reversed": "Conflictos patrimoniales."
+      },
+      "Amoroso": {
+        "upright": "Relación sólida y convivencia.",
+        "reversed": "Problemas económicos afectan la pareja."
+      },
+      "Laboral": {
+        "upright": "Negocio exitoso o buen salario.",
+        "reversed": "Disputas por dinero."
+      },
+      "Sentimental": {
+        "upright": "Seguridad emocional profunda.",
+        "reversed": "Presiones familiares."
+      },
+      "Consejo de actuar": {
+        "upright": "Construye a largo plazo.",
+        "reversed": "Cuida lo que importa."
+      }
+    }
+  },
+  {
+    "id": "sota-de-oros",
+    "name": "Sota de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_sota_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Aprendizaje práctico y curiosidad.",
+        "reversed": "Falta de progreso."
+      },
+      "Amoroso": {
+        "upright": "Interés sincero y tímido.",
+        "reversed": "Abandono emocional."
+      },
+      "Laboral": {
+        "upright": "Estudios útiles para la carrera.",
+        "reversed": "Malos hábitos laborales."
+      },
+      "Sentimental": {
+        "upright": "Automejora constante.",
+        "reversed": "Pereza emocional."
+      },
+      "Consejo de actuar": {
+        "upright": "Estudia y prepárate.",
+        "reversed": "Enfócate y evita dispersarte."
+      }
+    }
+  },
+  {
+    "id": "caballero-de-oros",
+    "name": "Caballero de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_caballero_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Constancia y fiabilidad.",
+        "reversed": "Rigidez y testarudez."
+      },
+      "Amoroso": {
+        "upright": "Compromiso serio en la pareja.",
+        "reversed": "Rutina dañina."
+      },
+      "Laboral": {
+        "upright": "Trabajo persistente con frutos.",
+        "reversed": "Estancamiento por miedo a innovar."
+      },
+      "Sentimental": {
+        "upright": "Estabilidad emocional.",
+        "reversed": "Aferrarse a lo conocido."
+      },
+      "Consejo de actuar": {
+        "upright": "Sigue firme.",
+        "reversed": "Permítete flexibilidad."
+      }
+    }
+  },
+  {
+    "id": "reina-de-oros",
+    "name": "Reina de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_reina_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Cuidado y prosperidad práctica.",
+        "reversed": "Celos materiales o dependencia."
+      },
+      "Amoroso": {
+        "upright": "Afecto nutritivo y protección.",
+        "reversed": "Exigir demasiado."
+      },
+      "Laboral": {
+        "upright": "Buena administración y eficiencia.",
+        "reversed": "Gastos mal gestionados."
+      },
+      "Sentimental": {
+        "upright": "Amor propio que da frutos.",
+        "reversed": "Descuidarte por cuidar a otros."
+      },
+      "Consejo de actuar": {
+        "upright": "Ámate como cuidas a otros.",
+        "reversed": "Pon límites sanos."
+      }
+    }
+  },
+  {
+    "id": "rey-de-oros",
+    "name": "Rey de Oros",
+    "suit": "Oros",
+    "image": "/assets/cartas/oros_rey_de_oros.jpg",
+    "meanings": {
+      "General": {
+        "upright": "Éxito económico y liderazgo responsable.",
+        "reversed": "Control excesivo y materialismo."
+      },
+      "Amoroso": {
+        "upright": "Relación madura y segura.",
+        "reversed": "Dominio económico en la pareja."
+      },
+      "Laboral": {
+        "upright": "Negocio rentable y autoridad.",
+        "reversed": "Abuso de poder o corrupción."
+      },
+      "Sentimental": {
+        "upright": "Autoestima sólida y estabilidad.",
+        "reversed": "Confundir valor con riqueza."
+      },
+      "Consejo de actuar": {
+        "upright": "Lidera con sabiduría.",
+        "reversed": "No pierdas humanidad por éxito."
+      }
+    }
+  }
+]

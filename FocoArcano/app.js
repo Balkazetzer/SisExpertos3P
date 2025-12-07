@@ -238,6 +238,16 @@ function generateFriendlyInference(cardsData, feedbackWeights = {}, customWeight
     cautela:       ['cautela', 'advertencia', 'precaución', 'riesgo', 'alerta']
   };
 
+  // Cargar reglas personalizadas
+const customRuleMappings = JSON.parse(localStorage.getItem('customRuleMappings') || '{}');
+
+for (const word in customRuleMappings) {
+  const rule = customRuleMappings[word];
+  if (!rulePatterns[rule]) rulePatterns[rule] = [];
+  rulePatterns[rule].push(word);
+}
+
+
   const ruleScores = {};
 
   for (const rule in rulePatterns) {
@@ -583,17 +593,157 @@ function generateFriendlyInference(cardsData, feedbackWeights = {}, customWeight
     showPage('home');
   });
 
-  btnSaveInterpret.addEventListener('click', () => {
-    state.interpretacion = textareaInterpret.value.trim();
-    saveReading();
-    state = { numCards: 3, ambito: 'General', chosen: [], interpretacion: '' };
-    selectNum.value = '3';
-    selectAmbito.value = 'General';
-    resetChosen();
-    textareaInterpret.value = '';
-    showPage('home');
-    alert('Lectura guardada en localStorage');
+  btnSaveInterpret.addEventListener('click', async () => {
+  state.interpretacion = textareaInterpret.value.trim();
+
+  // Guardar lectura como antes
+  saveReading();
+
+  // Extraer palabras
+  const words = extractCandidateKeywords(state.interpretacion);
+
+  // Mostrar UI para entrenamiento
+  const mappings = await showRuleTrainerUI(words);
+
+  // Guardar asociaciones
+  storeCustomRuleMappings(mappings);
+
+  // Reset
+  state = { numCards: 3, ambito: 'General', chosen: [], interpretacion: '' };
+  selectNum.value = '3';
+  selectAmbito.value = 'General';
+  resetChosen();
+  textareaInterpret.value = '';
+  showPage('home');
+
+  alert('Lectura guardada y reglas entrenadas');
+});
+
+
+
+  // ============================================================
+// UI PARA ENTRENAR REGLAS CON PALABRAS PERSONALIZADAS
+// ============================================================
+
+function extractCandidateKeywords(text) {
+  const blacklist = [
+    'el','la','los','las','de','y','a','que','en','un','una','con','por','para',
+    'su','sus','al','del','lo','se','como','más','mas','pero','ya','o','u','sin',
+    'muy','esto','esta','estas','estos','ese','esa','esas','esos'
+  ];
+
+  const words = text
+    .toLowerCase()
+    .replace(/[^\wáéíóúüñ\s]/gi,'')
+    .split(/\s+/)
+    .filter(w => w.length > 3 && !blacklist.includes(w));
+
+  return [...new Set(words)].slice(0, 15);
+}
+
+function showRuleTrainerUI(words) {
+  return new Promise(resolve => {
+    if (!words || !words.length) return resolve(null);
+
+    const overlay = document.createElement('div');
+    overlay.className = 'rule-trainer-overlay';
+
+    const box = document.createElement('div');
+    box.className = 'rule-trainer-box';
+
+    const title = document.createElement('h3');
+    title.textContent = 'Asociar palabras con reglas';
+    box.appendChild(title);
+
+    const hint = document.createElement('p');
+    hint.textContent = 'Puedes asignar o omitir palabras irrelevantes:';
+    box.appendChild(hint);
+
+    const ruleOptions = [
+      'bloqueos','impulsos','chismes','emociones','introspeccion',
+      'inestabilidad','comienzos','cierres','crecimiento','cautela'
+    ];
+
+    const selections = {};
+
+    words.forEach(word => {
+      const row = document.createElement('div');
+      row.style.display = 'flex';
+      row.style.alignItems = 'center';
+      row.style.gap = '10px';
+      row.style.marginBottom = '8px';
+
+      const wordLabel = document.createElement('div');
+      wordLabel.textContent = word;
+      wordLabel.style.minWidth = '120px';
+      wordLabel.style.fontWeight = 'bold';
+
+      const select = document.createElement('select');
+
+      const empty = document.createElement('option');
+      empty.value = '';
+      empty.textContent = '-- Sin asignar --';
+      select.appendChild(empty);
+
+      ruleOptions.forEach(r => {
+        const opt = document.createElement('option');
+        opt.value = r;
+        opt.textContent = r;
+        select.appendChild(opt);
+      });
+
+      const omitBtn = document.createElement('button');
+      omitBtn.type = 'button';
+      omitBtn.textContent = 'Omitir';
+      omitBtn.style.fontSize = '12px';
+
+      omitBtn.addEventListener('click', () => {
+        delete selections[word];
+        row.style.opacity = '0.4';
+        select.disabled = true;
+        omitBtn.disabled = true;
+      });
+
+      select.addEventListener('change', e => {
+        selections[word] = e.target.value;
+      });
+
+      row.appendChild(wordLabel);
+      row.appendChild(select);
+      row.appendChild(omitBtn);
+      box.appendChild(row);
+    });
+
+    const saveBtn = document.createElement('button');
+    saveBtn.textContent = 'Guardar aprendizaje';
+    saveBtn.style.marginTop = '15px';
+
+    saveBtn.onclick = () => {
+      document.body.removeChild(overlay);
+      resolve(selections);
+    };
+
+    box.appendChild(saveBtn);
+    overlay.appendChild(box);
+    document.body.appendChild(overlay);
   });
+}
+
+
+function storeCustomRuleMappings(mappings) {
+  if (!mappings) return;
+
+  const store = JSON.parse(localStorage.getItem('customRuleMappings') || '{}');
+
+  for (const word in mappings) {
+    const rule = mappings[word];
+    if (!rule) continue;
+    store[word] = rule;
+  }
+
+  localStorage.setItem('customRuleMappings', JSON.stringify(store));
+}
+
 
   // Inicial
   showPage('home');

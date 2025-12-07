@@ -209,141 +209,137 @@ document.addEventListener('DOMContentLoaded', async () => {
   // MOTOR DE INFERENCIA HUMANIZADO (CON APRENDIZAJE MEJORADO)
   // ============================================================
 
-  function generateFriendlyInference(cardsData, feedbackWeights = {}, customWeights = {}) {
-    const parts = [];
+function generateFriendlyInference(cardsData, feedbackWeights = {}, customWeights = {}) {
+  const parts = [];
 
-    // ================================
-    // 1. Significados individuales
-    // ================================
-    const indiv = cardsData
-      .map(c => `• ${c.name}: ${c.meaning}`)
-      .join('\n');
+  // ================================
+  // 1. Significados individuales
+  // ================================
+  const indiv = cardsData
+    .map(c => `• ${c.name}: ${c.meaning}`)
+    .join('\n');
 
-    parts.push(`Significados de cada carta:\n${indiv}`);
-// ================================
-// 2. Análisis general (con aprendizaje integrado)
-// ================================
+  parts.push(`Significados de cada carta:\n${indiv}`);
 
-// Diccionario de patrones clave para identificar temas en los significados
-const rulePatterns = {
-  bloqueos:      ['bloqueo', 'resistencia', 'estancamiento', 'traba', 'límite'],
-  impulsos:      ['impulso', 'impaciencia', 'prisa', 'arrebatado', 'acelerado'],
-  chismes:       ['chisme', 'rumor', 'comentarios', 'ruido externo'],
-  emociones:     ['emocional', 'sensibilidad', 'intenso', 'vulnerable', 'desborde'],
-  introspeccion: ['reflexión', 'interior', 'introspección', 'buscar dentro'],
-  inestabilidad: ['inestable', 'duda', 'cambio brusco', 'caos', 'volatilidad'],
-  comienzos:     ['nuevo inicio', 'nacimiento', 'semilla', 'comenzar', 'arranque'],
-  cierres:       ['fin', 'cierre', 'conclusión', 'culminación', 'ruptura'],
-  crecimiento:   ['crecimiento', 'expansión', 'progreso', 'avance', 'oportunidad'],
-  cautela:       ['cautela', 'advertencia', 'precaución', 'riesgo', 'alerta']
-};
+  // ================================
+  // 2. Análisis general
+  // ================================
 
-// Inicializa cada regla con peso base o con su feedback guardado
-let ruleScores = {};
-for (const rule in rulePatterns) {
-  ruleScores[rule] = (feedbackWeights[rule] || 1);
+  const rulePatterns = {
+    bloqueos:      ['bloqueo', 'resistencia', 'estancamiento', 'traba', 'límite'],
+    impulsos:      ['impulso', 'impaciencia', 'prisa', 'arrebatado', 'acelerado'],
+    chismes:       ['chisme', 'rumor', 'comentarios', 'ruido externo'],
+    emociones:     ['emocional', 'sensibilidad', 'intenso', 'vulnerable', 'desborde'],
+    introspeccion: ['reflexión', 'interior', 'introspección', 'buscar dentro'],
+    inestabilidad: ['inestable', 'duda', 'cambio brusco', 'caos', 'volatilidad'],
+    comienzos:     ['nuevo inicio', 'nacimiento', 'semilla', 'comenzar', 'arranque'],
+    cierres:       ['fin', 'cierre', 'conclusión', 'culminación', 'ruptura'],
+    crecimiento:   ['crecimiento', 'expansión', 'progreso', 'avance', 'oportunidad'],
+    cautela:       ['cautela', 'advertencia', 'precaución', 'riesgo', 'alerta']
+  };
 
-  // Busca palabras clave en los significados para activar la regla
-  const patterns = rulePatterns[rule];
-  const present = cardsData.some(c => 
-    patterns.some(p => c.meaning.toLowerCase().includes(p))
-  );
-  if (present) ruleScores[rule] += 1;
-}
+  const ruleScores = {};
 
-// ================================
-// Integrar aprendizaje de comentarios personalizados
-// ================================
-//
-// Mapeo de palabras clave → reglas que refuerzan
-//
-const customMap = {
-  paciencia:     ['bloqueos', 'cautela'],
-  calma:         ['bloqueos', 'emociones'],
-  accion:        ['impulsos', 'crecimiento'],
-  decision:      ['cautela', 'introspeccion'],
-  cambio:        ['inestabilidad', 'crecimiento', 'comienzos'],
-  cerrar:        ['cierres'],
-  comenzar:      ['comienzos'],
-  reflexion:     ['introspeccion'],
-};
+  for (const rule in rulePatterns) {
+    ruleScores[rule] = (feedbackWeights[rule] ?? 1);
 
-// Incremento según palabras del usuario
-for (const key in customWeights) {
-  if (customMap[key]) {
-    customMap[key].forEach(rule => {
-      ruleScores[rule] += customWeights[key] * 0.5;
-    });
+    const patterns = rulePatterns[rule];
+    const present = cardsData.some(c =>
+      patterns.some(p => c.meaning.toLowerCase().includes(p))
+    );
+
+    if (present) ruleScores[rule] += 1;
   }
-}
 
-// ================================
-// Generación del análisis general
-// ================================
-const analysis = [];
+  // ================================
+  // Mapeo personalizado
+  // ================================
+  const customMap = {
+    paciencia:     ['bloqueos', 'cautela'],
+    calma:         ['bloqueos', 'emociones'],
+    accion:        ['impulsos', 'crecimiento'],
+    decision:      ['cautela', 'introspeccion'],
+    cambio:        ['inestabilidad', 'crecimiento', 'comienzos'],
+    cerrar:        ['cierres'],
+    comenzar:      ['comienzos'],
+    reflexion:     ['introspeccion']
+  };
 
-if (ruleScores.bloqueos > 1)
-  analysis.push('Se notan algunas resistencias o factores que podrían estar frenando tu avance.');
-
-if (ruleScores.impulsos > 1)
-  analysis.push('Hay una tendencia a actuar con prisa o dejarse llevar por impulsos.');
-
-if (ruleScores.chismes > 1)
-  analysis.push('Parece haber ruido externo o comentarios que podrían influir de más.');
-
-if (ruleScores.emociones > 1)
-  analysis.push('Las emociones están jugando un papel importante y podrían estar más intensas de lo habitual.');
-
-if (ruleScores.introspeccion > 1)
-  analysis.push('Se sugiere hacer una pausa y mirar hacia dentro para aclarar tu perspectiva.');
-
-if (ruleScores.inestabilidad > 1)
-  analysis.push('La lectura muestra cierta inestabilidad o cambios bruscos en tu entorno.');
-
-if (ruleScores.comienzos > 1)
-  analysis.push('Se percibe una energía de nuevos comienzos o aperturas importantes.');
-
-if (ruleScores.cierres > 1)
-  analysis.push('Hay señales de cierre o culminación de una etapa.');
-
-if (ruleScores.crecimiento > 1)
-  analysis.push('La lectura señala oportunidades de crecimiento y expansión.');
-
-if (ruleScores.cautela > 1)
-  analysis.push('Conviene actuar con cuidado y evaluar bien los próximos pasos.');
-
-
-    const analysisText = analysis.length
-      ? analysis.join(' ')
-      : 'La lectura no muestra tensiones fuertes. El panorama es estable.';
-
-    parts.push(`Lo que muestran las cartas:\n${analysisText}`);
-
-    // ================================
-    // 3. Consejo final (con aprendizaje)
-    // ================================
-    let consejo = 'Tómate un momento para observar la situación antes de actuar. Avanza solo cuando sientas claridad.';
-
-    if (bloqueos > impulsos)
-      consejo = 'Antes de tomar decisiones importantes, detente un momento y evalúa qué te está presionando. No tienes que resolver todo de inmediato.';
-
-    if (bloqueos > 0 && chismes > 0)
-      consejo = 'No tomes decisiones basadas en opiniones externas. Revisa tus propios límites y decide desde tu estabilidad.';
-
-    if (impulsos > bloqueos)
-      consejo = 'Tu energía es alta, pero asegúrate de no correr sin dirección. Un poco de calma te ayudará a elegir mejor.';
-
-    // Ajustar consejo basado en aprendizaje
-    if (customWeights.paciencia > 2) consejo += ' Recuerda que la paciencia es clave aquí.';
-    if (customWeights.accion > 2) consejo += ' Es momento de actuar con determinación.';
-
-    parts.push(`Consejo:\n${consejo}`);
-
-    // ================================
-    // SALIDA FINAL
-    // ================================
-    return parts.join('\n\n');
+  for (const key in (customWeights || {})) {
+    if (customMap[key]) {
+      customMap[key].forEach(rule => {
+        if (!ruleScores[rule]) ruleScores[rule] = 0;
+        ruleScores[rule] += (customWeights[key] || 0) * 0.5;
+      });
+    }
   }
+
+  // ================================
+  // Generación análisis
+  // ================================
+  const analysis = [];
+
+  if (ruleScores.bloqueos > 1)
+    analysis.push('Se notan algunas resistencias o factores que podrían estar frenando tu avance.');
+
+  if (ruleScores.impulsos > 1)
+    analysis.push('Hay una tendencia a actuar con prisa o dejarse llevar por impulsos.');
+
+  if (ruleScores.chismes > 1)
+    analysis.push('Parece haber ruido externo o comentarios que podrían influir de más.');
+
+  if (ruleScores.emociones > 1)
+    analysis.push('Las emociones están jugando un papel importante y podrían estar más intensas de lo habitual.');
+
+  if (ruleScores.introspeccion > 1)
+    analysis.push('Se sugiere hacer una pausa y mirar hacia dentro para aclarar tu perspectiva.');
+
+  if (ruleScores.inestabilidad > 1)
+    analysis.push('La lectura muestra cierta inestabilidad o cambios bruscos en tu entorno.');
+
+  if (ruleScores.comienzos > 1)
+    analysis.push('Se percibe una energía de nuevos comienzos o aperturas importantes.');
+
+  if (ruleScores.cierres > 1)
+    analysis.push('Hay señales de cierre o culminación de una etapa.');
+
+  if (ruleScores.crecimiento > 1)
+    analysis.push('La lectura señala oportunidades de crecimiento y expansión.');
+
+  if (ruleScores.cautela > 1)
+    analysis.push('Conviene actuar con cuidado y evaluar bien los próximos pasos.');
+
+  const analysisText = analysis.length
+    ? analysis.join(' ')
+    : 'La lectura no muestra tensiones fuertes. El panorama es estable.';
+
+  parts.push(`Lo que muestran las cartas:\n${analysisText}`);
+
+  // ================================
+  // 3. Consejo final (corregido)
+  // ================================
+  let consejo = 'Tómate un momento para observar la situación antes de actuar. Avanza solo cuando sientas claridad.';
+
+  const bloqueos = ruleScores.bloqueos || 0;
+  const impulsos = ruleScores.impulsos || 0;
+  const chismes  = ruleScores.chismes || 0;
+
+  if (bloqueos > impulsos)
+    consejo = 'Antes de tomar decisiones importantes, detente un momento y evalúa qué te está presionando. No tienes que resolver todo de inmediato.';
+
+  if (bloqueos > 0 && chismes > 0)
+    consejo = 'No tomes decisiones basadas en opiniones externas. Revisa tus propios límites y decide desde tu estabilidad.';
+
+  if (impulsos > bloqueos)
+    consejo = 'Tu energía es alta, pero asegúrate de no correr sin dirección. Un poco de calma te ayudará a elegir mejor.';
+
+  if ((customWeights?.paciencia || 0) > 2) consejo += ' Recuerda que la paciencia es clave aquí.';
+  if ((customWeights?.accion || 0) > 2)    consejo += ' Es momento de actuar con determinación.';
+
+  parts.push(`Consejo:\n${consejo}`);
+
+  return parts.join('\n\n');
+}
 
   // ============================================================
   // GENERACIÓN DE INTERPRETACIÓN AUTOMÁTICA
